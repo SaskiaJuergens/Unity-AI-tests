@@ -12,13 +12,16 @@ public class NewBehaviourScript : Agent
     //observes again
 
     [SerializeField] private Transform targetPosition;
+    [SerializeField] private Material winMaterial;
+    [SerializeField] private Material losMaterial;
+    [SerializeField] private MeshRenderer floorMeshRenderer;
     //space size = input amount -> Position = 3 (the x,y,z inputs)
     //stack vectors = amount of last decision will be saved and used in memory
 
 
     public override void OnEpisodeBegin()
     {
-        transform.position = Vector3.zero; //back to the Starting position
+        transform.localPosition = Vector3.zero; //back to the Starting position
     }
 
     /// <summary>
@@ -28,8 +31,8 @@ public class NewBehaviourScript : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         //inputs for the AI for solving the problem
-        sensor.AddObservation(transform.position); //Ai gets the player Position
-        sensor.AddObservation(targetPosition); //get Goal Position
+        sensor.AddObservation(transform.localPosition); //Ai gets the player Position
+        sensor.AddObservation(targetPosition.localPosition); //get Goal Position
 
     }
 
@@ -48,8 +51,8 @@ public class NewBehaviourScript : Agent
         float moveZ = actions.ContinuousActions[1];
 
         //moveing the character
-        float moveSpeed = 2f;
-        transform.position += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
+        float moveSpeed = 20f;
+        transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
     }
 
     //verify if code correct
@@ -72,11 +75,13 @@ public class NewBehaviourScript : Agent
         if(other.TryGetComponent<Goal>(out Goal goal))
         {
             SetReward(+1f);
+            floorMeshRenderer.material = winMaterial;
             EndEpisode(); //Reseting Statue to train again
         }
         if (other.TryGetComponent<Wall>(out Wall wall))
         {
             SetReward(-1f); //negative Reward
+            floorMeshRenderer.material = losMaterial;
             EndEpisode(); //Reseting Statue to train again
         }
 
