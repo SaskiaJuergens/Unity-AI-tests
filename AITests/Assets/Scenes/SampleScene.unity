@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.03
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -248,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.13123
@@ -304,6 +316,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.3
@@ -418,6 +438,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -570,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.3
@@ -626,6 +654,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -776,6 +808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.3
@@ -832,6 +868,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -890,6 +930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.3
@@ -946,6 +990,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1004,6 +1052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.72122896
@@ -1061,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoveToGoal_AI (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.72122896
@@ -1117,6 +1173,10 @@ PrefabInstance:
     - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_Name
       value: MoveToGoal_AI (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907201060510214643, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4530882873139491737, guid: f000bf50b86f83e42bf21ef109a3467b, type: 3}
       propertyPath: m_LocalPosition.x

@@ -21,7 +21,8 @@ public class NewBehaviourScript : Agent
 
     public override void OnEpisodeBegin()
     {
-        transform.localPosition = Vector3.zero; //back to the Starting position
+        transform.localPosition = new Vector3(Random.Range(-6f, +6f), 0, Random.Range(-5f, +7f)); //back to the Starting position
+        targetPosition.localPosition = new Vector3(Random.Range(-6f, +6f), 0, Random.Range(-5f, +7f));
     }
 
     /// <summary>

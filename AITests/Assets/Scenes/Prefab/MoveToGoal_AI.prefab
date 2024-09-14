@@ -419,7 +419,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 8ba17d25321ff0a4481e80b4405aa7fb, type: 3}
   m_InferenceDevice: 3
   m_BehaviorType: 0
   m_BehaviorName: MoveToGoal
@@ -726,7 +726,7 @@ Transform:
   m_GameObject: {fileID: 6091753083487454674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.0412292, y: -0.099999905, z: 5.009797}
+  m_LocalPosition: {x: 5.79, y: 0, z: 5.52}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []

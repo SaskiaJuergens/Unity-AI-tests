@@ -17,3 +17,12 @@ or -> Terminal: pip install torch torchvision torchaudio
 if you got a error try: pip install mlagents --use-feature-?=2020-resolver
 
 -Verify if everything was correct installed -> Terminal: mlagents-learn --help
+
+-to start the game: mlagents-learn --run-id=Test1
+
+-with a txtdocument (in config ordner) like hier: mlagents-learn config/moveToGoal.yaml --run-id=Test4
+
+-learning from previous brain-> Terminal: mlagents-learn config/moveToGoal.yaml --initialize-from=MoveToGoal --run-id=MoveToRun
+
+-visuals the results-> Terminal: tensorboard --logdir results
+	-> it give a localhost number -> google 'localhost6006' for example then their should be the results vidualised while training
